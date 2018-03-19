@@ -6,5 +6,3 @@ function printStars(numberOfStars) {
         console.log("*".repeat(index));
     }
 }
-
-printStars(3);
