@@ -13,5 +13,3 @@ function averageSum(number) {
     }
     return number;
 }
-
-averageSum(1234)
