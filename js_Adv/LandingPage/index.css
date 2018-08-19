@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/solid.css');
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: url('images/Layer-759_02.jpg') no-repeat;
+    background-size: cover;
+    height: 645px;
+}
+
+nav {
+    background: sandybrown;
+    width: 70%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: white;
+}
+
+header p {
+    margin-top: 50px;
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+}
+
+header>a {
+    text-decoration: none;
+    background: darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header a::after {
+    content: ">";
+    color: sandybrown;
+}
+
+header>a:hover {
+    background: sandybrown;
+    color: darkblue;
+}
+
+main .first-section {
+    height: 300px;
+}
+
+.first-row {
+    text-align: center;
+}
+
+.services h2:first-child {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.first-row article {
+    width: 30%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.second-row {
+    text-align: center;
+}
+
+.second-row article {
+    width: 30%;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.services h2 {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.services article p {
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+i {
+    float: left;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    padding: 8px;
+}
+
+.second-section {
+    background: url('images/steel-bg.jpg');
+    opacity: 0.8;
+    height: 150px;
+    text-align: center;
+}
+
+.second-section p:first-child {
+    padding-top: 60px;
+    font-size: 20px;
+    color: rgb(114, 60, 13);
+    font-weight: bold;
+}
+
+.second-section p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.third-section {
+    height: 300px;
+    background: url('images/background-choose-us.jpg');
+}
+
+.dark-background {
+    background: black;
+    opacity: 0.8;
+}
+
+.third-section h4 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 70px;
+}
+
+.options {
+    text-align: center;
+}
+
+.options h5 {
+    text-align: center;
+}
+
+.options article {
+    width: 22%;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    color: white;
+    border: 1px solid rgb(180, 99, 27);
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.options article:hover {
+    background: white;
+    color: black;
+}
+
+.options p {
+    margin-top: 10px;
+}
+
+.consulting-woman {
+    background: url("images/consulting-woman.jpg");
+    height: 600px;
+}
+
+.consulting-woman article {
+    background: lightgray;
+    opacity: 0.8;
+    width: 35%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    height: 60%;
+}
+
+.consulting-woman article div {
+    background: black;
+    height: 50%;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.consulting-woman article div p {
+    color: white;
+}
+
+.first-p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.first-p::before {
+    content: '"';
+    color: brown;
+}
+
+.first-p::after {
+    content: '"';
+    color: brown;
+}
+
+.consulting-woman article div p:first-child {
+    text-align: right;
+    font-size: 12px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.consulting-woman article div p:nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logos img {
+    width: 100px;
+    margin: 20px 0 20px 0;
+}
+
+.logos img:last-child {
+    height: 50px;
+}
+
+.image-container {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 70px;
+    height: 70px;
+}
+
+footer {
+    background: rgb(1, 1, 41);
+    color: white;
+}
+
+footer section{
+    display: inline-block;
+    margin: 40px 0 40px 0;
+    padding-left: 100px;
+}
+
+footer section li {
+    color: saddlebrown;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.contacts p {
+    margin-top: 20px;
+}
