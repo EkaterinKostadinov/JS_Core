@@ -1,0 +1,81 @@
+/*TODO write CSS here*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+.header {
+    background: tomato;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-article {
+    background: blue;
+}
+
+.aside-1 {
+    background: yellow;
+    width: 35%;
+    text-align: center;
+}
+
+.aside-2 {
+    background: pink;
+    width: 35%;
+    text-align: center;
+}
+
+footer {
+    background: green;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box {
+    display: flex;
+    height: 120px;
+}
+
+.aside-1 {
+    order: 0;
+}
+
+.main-article {
+    order: 1;
+}
+
+.aside-2 {
+    order: 2;
+}
+
+@media all and (max-width: 600px) {
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-article {
+        order: 0;
+    }
+
+    .aside-1 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .aside-2 {
+        width: 100%;
+        height: 50%;
+    }
+}
